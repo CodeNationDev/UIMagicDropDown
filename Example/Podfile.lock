@@ -1,0 +1,16 @@
+PODS:
+  - UIMagicDropDown (1.0.0)
+
+DEPENDENCIES:
+  - UIMagicDropDown (from `../`)
+
+EXTERNAL SOURCES:
+  UIMagicDropDown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIMagicDropDown: d45b3d281c23331e52cfb01d42568a2849ebeae2
+
+PODFILE CHECKSUM: e67219cee7fc45c02485cb39209bc06fbea2aa12
+
+COCOAPODS: 1.9.1

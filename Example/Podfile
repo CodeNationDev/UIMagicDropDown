@@ -1,0 +1,11 @@
+install! 'cocoapods',
+	 generate_multiple_pod_projects: true,
+	 incremental_installation: true,
+	 :disable_input_output_paths => true
+
+target 'ExampleUIDropDown' do
+  use_frameworks!
+
+    pod 'UIMagicDropDown', :path => '../'
+
+end
