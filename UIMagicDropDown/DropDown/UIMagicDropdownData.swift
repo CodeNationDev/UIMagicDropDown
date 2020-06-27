@@ -1,6 +1,6 @@
 import Foundation
 
-public class UIMagicDropdownData {
+public struct UIMagicDropdownData {
     public var label: (String)
     public var value: Any?
 

@@ -20,7 +20,7 @@ public class UIMagicDropdownCell: UITableViewCell {
         if selected {
             self.textLabel?.textColor = theme?.colors?.itemSelectedTextColor ?? .white
         } else {
-            self.textLabel?.textColor = theme?.colors?.itemUnselectedTextColor ?? .gray
+            self.textLabel?.textColor = theme?.colors?.itemUnselectedTextColor ?? .darkGray
         }
     }
 
@@ -65,7 +65,7 @@ public class UIMagicDropdownCell: UITableViewCell {
     func applyStyles() {
         backView?.backgroundColor = theme?.colors?.itemSelectedColor ?? .systemBlue
         backgroundColor = theme?.colors?.itemUnselectedColor ?? .white
-        textLabel?.font = theme?.fonts?.itemFont ?? .systemFont(ofSize: 15)
+        textLabel?.font = theme?.fonts?.itemFont ?? .systemFont(ofSize: 17)
         textLabel?.textAlignment = theme?.texts?.tableTextAlignmrnt ?? .left
     }
 }
