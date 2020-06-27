@@ -5,7 +5,7 @@
 
 UIMagicDropDown is a simply but powerful solution for this kind of selection element. Easy for use and integrate, you could make your own design by themes feature.
 
-![](header.png)
+<!-- ![](header.png) -->
 
 ## Features
 
@@ -65,6 +65,7 @@ NSLayoutConstraint.activate([
 ])           
 ```
 Now, run your project and see you first MagicDropDown in your app.
+![preview1](https://github.com/CodeNationDev/UIMagicDropDown/blob/develop/Preview1.gif)
 
 
 ## Meta
