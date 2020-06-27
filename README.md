@@ -352,6 +352,8 @@ dropDown.theme = indigo
 ```
 
 Anf finally, the result...
+<p>
+
 ![preview2](https://github.com/CodeNationDev/UIMagicDropDown/blob/develop/Preview2.gif?raw=true)
 
 Can you see that? YES!! **my DropDown don't push the view under it**. Do you want to know how?
