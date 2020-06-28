@@ -208,26 +208,26 @@ class ViewController: UIViewController {
         dropDownCorn?.translatesAutoresizingMaskIntoConstraints = false
         dropDownPunch?.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(dropDown!)
-//        view.addSubview(dropDownIndigo!)
-//        view.addSubview(dropDownCorn!)
-//        view.addSubview(dropDownPunch!)
+        view.addSubview(dropDownIndigo!)
+        view.addSubview(dropDownCorn!)
+        view.addSubview(dropDownPunch!)
 
         NSLayoutConstraint.activate([
             dropDown!.topAnchor.constraint(equalTo: view.topAnchor, constant: 100.0),
             dropDown!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
             dropDown!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
 
-//            dropDownIndigo!.topAnchor.constraint(equalTo: view.topAnchor, constant: 200.0),
-//            dropDownIndigo!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
-//            dropDownIndigo!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
-//
-//            dropDownCorn!.topAnchor.constraint(equalTo: view.topAnchor, constant: 300.0),
-//            dropDownCorn!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
-//            dropDownCorn!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
-//
-//            dropDownPunch!.topAnchor.constraint(equalTo: view.topAnchor, constant: 400.0),
-//            dropDownPunch!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
-//            dropDownPunch!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
+            dropDownIndigo!.topAnchor.constraint(equalTo: view.topAnchor, constant: 200.0),
+            dropDownIndigo!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
+            dropDownIndigo!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
+
+            dropDownCorn!.topAnchor.constraint(equalTo: view.topAnchor, constant: 300.0),
+            dropDownCorn!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
+            dropDownCorn!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
+
+            dropDownPunch!.topAnchor.constraint(equalTo: view.topAnchor, constant: 400.0),
+            dropDownPunch!.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 80.0),
+            dropDownPunch!.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -80.0),
         ])
     }
 }

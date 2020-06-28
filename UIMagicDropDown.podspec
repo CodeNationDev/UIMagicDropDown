@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.source_files = 'UIMagicDropDown/**/*.{swift}'
-  s.resource_bundle = { 'SUKit' => ['UIMagicDropDown/Resources/**', 'UIMagicDropDown/Strings/**'] }
+  s.resource_bundle = { 'UIMDrop' => ['UIMagicDropDown/Resources/**', 'UIMagicDropDown/Strings/**'] }
 end

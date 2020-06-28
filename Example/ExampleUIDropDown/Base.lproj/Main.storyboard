@@ -20,9 +20,9 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CpZ-GF-4vb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="U6q-Ut-UDg"/>
+                            <constraint firstItem="CpZ-GF-4vb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="500" id="U6q-Ut-UDg"/>
                             <constraint firstItem="CpZ-GF-4vb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="s58-Cc-mVc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CpZ-GF-4vb" secondAttribute="trailing" constant="80" id="zOZ-QH-4pE"/>
                         </constraints>

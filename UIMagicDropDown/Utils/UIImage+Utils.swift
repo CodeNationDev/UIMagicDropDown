@@ -27,7 +27,7 @@ extension UIImage {
 public func getImage(named: String) -> UIImage {
     let magicBundle: Bundle = {
           var santanderBundle = Bundle()
-          if let url = Bundle(for: UIMagicDropdownCell.self).url(forResource: "SUKit", withExtension: "bundle"), let realbundle = Bundle(url: url ) {
+          if let url = Bundle(for: UIMagicDropdownCell.self).url(forResource: "UIMDrop", withExtension: "bundle"), let realbundle = Bundle(url: url ) {
               santanderBundle = realbundle
           }
           return santanderBundle
