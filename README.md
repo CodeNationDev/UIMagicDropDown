@@ -38,6 +38,8 @@ import UIMagicDropDown
 
 ## Usage example
 
+### By code
+
 First, you must create the items using `UIMagicDropdownData` structure, thats receive an String (the label that shows into DropDown) and an Any element, the object sended when item is selected.
 ```swift
 let items:[UIMagicDropdownData] = [
@@ -355,9 +357,19 @@ Anf finally, the result...
 <p>
 <img src="https://github.com/CodeNationDev/UIMagicDropDown/blob/develop/Preview2.gif?raw=true" width="300" height="464" />
 
-Can you see that? YES!! **my DropDown don't push the view under it**. Do you want to know how?
+Can you see that? YES!! **my DropDown don't push the views under it**. 
 
+### By Interface Builder (BETA)
 
+1- Add a UIView in your controller.
+2- Select identity inspector and set the custom class `UIMagicDropdown`
+3- Define all your constraints less bottom, for allow the view grow to down without cause a movement in all another views under it. Yes, this cause a constraint error. Ignore it, but be careful with all another views.
+
+See the following pic:
+
+<img src="https://github.com/CodeNationDev/UIMagicDropDown/blob/develop/sample2.png?raw=true" width="600" height="400" />
+
+Then, everything else do by the same way than the use by code.
 
 ## Meta
 
