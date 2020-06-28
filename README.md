@@ -378,3 +378,8 @@ David Martin Saiz – [@deividmarshall](https://twitter.com/deividmarshall) – 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/CodeNationDev)
+
+## Version History
+
+* 1.0.0
+    * First implementation with main features.
