@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'An elegant and magic dropdown'
 
   s.description      = <<-DESC
-  An elegant and magic dropdown
+  An elegant and magic dropdown for general use.
                        DESC
 
   s.homepage         = 'https://github.com/CodeNationDev'
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.authors          = 'CodeNationDev'
   s.swift_version    = '5.0'
   s.source           = {
-    :git => 'git@github.com:CodeNationDev/SuperUIKit.git',
-    :tag => 'SuperUIKit-' + s.version.to_s
+    :git => 'git@github.com:CodeNationDev/UIMagicDropDown.git',
+    :tag => 'UIMagicDropDown-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/deividmarshall'
   s.ios.deployment_target = '9.0'
