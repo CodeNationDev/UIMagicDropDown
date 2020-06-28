@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors          = 'CodeNationDev'
   s.swift_version    = '5.0'
   s.source           = {
-    :git => 'git@github.com:CodeNationDev/UIMagicDropDown.git',
+    :git => 'https://github.com/CodeNationDev/UIMagicDropDown.git',
     :tag => 'UIMagicDropDown-' + s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/deividmarshall'
