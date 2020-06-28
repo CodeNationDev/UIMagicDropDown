@@ -26,11 +26,11 @@ extension UIImage {
 
 public func getImage(named: String) -> UIImage {
     let magicBundle: Bundle = {
-          var santanderBundle = Bundle()
+          var magicBundle = Bundle()
           if let url = Bundle(for: UIMagicDropdownCell.self).url(forResource: "UIMDrop", withExtension: "bundle"), let realbundle = Bundle(url: url ) {
-              santanderBundle = realbundle
+              magicBundle = realbundle
           }
-          return santanderBundle
+          return magicBundle
       }()
 
     return UIImage(named: "\(named)", in: magicBundle, compatibleWith: nil) ?? UIImage()
