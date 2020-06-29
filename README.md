@@ -1,7 +1,7 @@
 # UMagicDropDown
 > An elegant and magic dropdown
 
-![Cocoapods](https://img.shields.io/badge/CocoaPods-Ready-green) ![Swift](https://img.shields.io/badge/Swift-5.0-orange)
+![Cocoapods](https://img.shields.io/badge/CocoaPods-Ready-green) ![Carthage](https://img.shields.io/badge/Carhage-compatible-blue) ![Swift](https://img.shields.io/badge/Swift-5.0-orange) 
 
 UIMagicDropDown is a simply but powerful solution for this kind of selection element. Easy for use and integrate, you could make your own design by themes feature.
 
@@ -34,7 +34,16 @@ First of all, import the module 😅
 ``` swift
 import UIMagicDropDown
 ```
+#### Carthage
 
+Put the following line in your Cartfile:
+```ruby
+git "https://github.com/CodeNationDev/UIMagicDropDown.git" ~> 1.1.0 
+```
+Then, run 
+```bash
+$ carthage update
+```
 
 ## Usage example
 
@@ -357,7 +366,44 @@ Anf finally, the result...
 <p>
 <img src="https://github.com/CodeNationDev/UIMagicDropDown/blob/develop/Preview2.gif?raw=true" width="300" height="464" />
 
-Can you see that? YES!! **my DropDown don't push the views under it**. 
+Can you see that? YES!! **my DropDown don't push the views under it**. Do yo know how? check it this...
+Please, firstly read the next section for know how implement the delgate protocol, set the delegate object and know the functions available, then, see the following topic:
+
+In the procotol, you have this function:
+```swift
+func dropdownExpanded (_ sender: UIMagicDropdown)
+```
+When any dropdown in your view has expanded, calls this function and send  the instance as “sender” variable. We use this instance for elevate the dropDown view and avoid to push the rest of views under it. Look at the following example:
+```swift
+ func dropdownExpanded(_ sender: UIMagicDropdown) {
+        view.bringSubviewToFront(sender)
+    }
+```
+Now, try it in your design!!
+
+### Catching selection
+
+For get the selection of each element in your screen, you have available a protocol with three functions, but get focused in the first one:
+
+```swift
+public protocol UIMagicDropDownDelegate: class {
+    func dropDownSelected (_ item: UIMagicDropdownData, _ sender: UIMagicDropdown)
+    func dropdownExpanded (_ sender: UIMagicDropdown)
+    func dropdownCompressed (_ sender: UIMagicDropdown)
+}
+```
+As surely you know, you only must to implement UIMagicDropDownDelegate protocol in your class and conform the first function (it’s the only one mandatory). Be sure that you set the delegate with ‘self’, once you implement the UIMagicDropDownDelegate in your class.
+```swift
+dropDown.dropDownDelegate = self
+```
+
+ When any dropDown get a new selection, this function provide you the object of element selected associated and the instance of the dropdown object that made the selection.
+
+extension ViewController: UIMagicDropDownDelegate {
+    func dropDownSelected(_ item: UIMagicDropdownData, _ sender: UIMagicDropdown) {
+        //Do Something
+    }
+}
 
 ### By Interface Builder (BETA)
 
@@ -380,6 +426,9 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [https://github.com/yourname/github-link](https://github.com/CodeNationDev)
 
 ## Version History
+* 1.1.0
+    * Add Carthage compatibility
+    * Modify getImage func for Carthage useage.
 
 * 1.0.0
     * First implementation with main features.
