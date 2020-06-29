@@ -89,7 +89,6 @@ It is highly probable that you will need customize the apparence of this element
 ```swift
 public struct MagicDropDownConfig {
     public var colors: Colors?
-    public var images: Images?
     public var fonts: Fonts?
     public var layers: Layers?
     public var shadow: Shadow?
@@ -107,12 +106,6 @@ public struct MagicDropDownConfig {
         public var itemUnselectedTextColor: UIColor?
         public var separatorTintColor: UIColor?
         public var accessoryTintColor: UIColor?
-
-        public init(){}
-    }
-    public struct Images {
-        //MARK: - Images
-        public var accessoryImageView: UIImageView?
 
         public init(){}
     }
@@ -426,6 +419,10 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [https://github.com/yourname/github-link](https://github.com/CodeNationDev)
 
 ## Version History
+* 1.2.0
+  * Remove dropdown_arrow image resource
+  * Add arrow as "V" copperplate font
+  * Modify theme structure: Remove images sub-struct  
 * 1.1.0
     * Add Carthage compatibility
     * Modify getImage func for Carthage useage.
