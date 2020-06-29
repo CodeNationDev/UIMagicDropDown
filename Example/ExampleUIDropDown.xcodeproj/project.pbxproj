@@ -80,7 +80,6 @@
 				43521AC9FBB4D3F829B071E1 /* Pods-ExampleUIDropDown.debug.xcconfig */,
 				A9C4719476B0E8FD7F870911 /* Pods-ExampleUIDropDown.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -353,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LYY6BZ69B;
 				INFOPLIST_FILE = ExampleUIDropDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -371,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LYY6BZ69B;
 				INFOPLIST_FILE = ExampleUIDropDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
