@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     var dropDownPunch:UIMagicDropdown?
 //    @IBOutlet weak var dropDownIB: UIMagicDropdown!
 
-
     var indigo: MagicDropDownConfig? = {
         var theme = MagicDropDownConfig()
         let colors:MagicDropDownConfig.Colors = {

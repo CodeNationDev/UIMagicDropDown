@@ -42,12 +42,12 @@ public class UIMagicDropdownButton: UIButton {
         return view
     }()
 
-    fileprivate lazy var iconImageview: UIImageView = {
-        let iv = UIImageView(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
+    fileprivate lazy var iconImageview: UILabel = {
+        let iv = UILabel(frame: CGRect(x: 0, y: 0, width: 12, height: 12))
         iv.isHidden = false
-        iv.image = getImage(named: "dropdown_arrow").withRenderingMode(.alwaysTemplate)
-        iv.contentMode = .center
-        iv.tintColor = .systemYellow
+        iv.text = "v"
+        iv.textAlignment = .center
+        iv.font = UIFont(name: "Copperplate", size: 15)
         return iv
     }()
 
@@ -139,10 +139,7 @@ public class UIMagicDropdownButton: UIButton {
     func applyStyles() {
         labelView.textColor = theme?.colors?.hintTextColor ?? .darkGray
         labelView.font = theme?.fonts?.hintFont ?? .systemFont(ofSize: 17)
-        if let accesoryImageView = theme?.images?.accessoryImageView {
-            iconImageview = accesoryImageView
-        }
-        iconImageview.tintColor = theme?.colors?.accessoryTintColor ?? .systemBlue
+        iconImageview.textColor = theme?.colors?.accessoryTintColor ?? .systemBlue
         separatorView.backgroundColor = theme?.colors?.separatorTintColor ?? .gray
         backgroundColor = theme?.colors?.dropDownBoxBackgroundColor ?? .white
         layer.borderColor = theme?.colors?.borderColor?.cgColor

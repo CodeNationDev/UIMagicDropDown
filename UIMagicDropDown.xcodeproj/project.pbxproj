@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07EA356B24A94E4F00B25ABA /* UIMagicDropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EA356924A94E4F00B25ABA /* UIMagicDropDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07EA357E24A94EBB00B25ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EA357224A94EBB00B25ABA /* Assets.xcassets */; };
 		07EA357F24A94EBB00B25ABA /* MagicLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA357424A94EBB00B25ABA /* MagicLabel.swift */; };
 		07EA358024A94EBB00B25ABA /* UIMagicDropdownTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA357624A94EBB00B25ABA /* UIMagicDropdownTableView.swift */; };
 		07EA358124A94EBB00B25ABA /* UIMagicDropdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA357724A94EBB00B25ABA /* UIMagicDropdownButton.swift */; };
@@ -55,7 +54,6 @@
 		07EA356624A94E4F00B25ABA /* UIMagicDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIMagicDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EA356924A94E4F00B25ABA /* UIMagicDropDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMagicDropDown.h; sourceTree = "<group>"; };
 		07EA356A24A94E4F00B25ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07EA357224A94EBB00B25ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07EA357424A94EBB00B25ABA /* MagicLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicLabel.swift; sourceTree = "<group>"; };
 		07EA357624A94EBB00B25ABA /* UIMagicDropdownTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMagicDropdownTableView.swift; sourceTree = "<group>"; };
 		07EA357724A94EBB00B25ABA /* UIMagicDropdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMagicDropdownButton.swift; sourceTree = "<group>"; };
@@ -117,20 +115,11 @@
 			children = (
 				07EA357524A94EBB00B25ABA /* DropDown */,
 				07EA357324A94EBB00B25ABA /* Label */,
-				07EA357124A94EBB00B25ABA /* Resources */,
 				07EA357B24A94EBB00B25ABA /* Utils */,
 				07EA356924A94E4F00B25ABA /* UIMagicDropDown.h */,
 				07EA356A24A94E4F00B25ABA /* Info.plist */,
 			);
 			path = UIMagicDropDown;
-			sourceTree = "<group>";
-		};
-		07EA357124A94EBB00B25ABA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				07EA357224A94EBB00B25ABA /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		07EA357324A94EBB00B25ABA /* Label */ = {
@@ -276,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EA357E24A94EBB00B25ABA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

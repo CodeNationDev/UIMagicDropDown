@@ -23,18 +23,3 @@ extension UIImage {
         return self
     }
 }
-
-public func getImage(named: String) -> UIImage {
-    if let image = UIImage(named: "dropdown_arrow", in: Bundle(for: UIMagicDropdown.self), compatibleWith: nil) {
-        return image
-    }
-    let magicBundle: Bundle = {
-          var magicBundle = Bundle()
-          if let url = Bundle(for: UIMagicDropdownCell.self).url(forResource: "UIMDrop", withExtension: "bundle"), let realbundle = Bundle(url: url ) {
-              magicBundle = realbundle
-          }
-          return magicBundle
-      }()
-
-    return UIImage(named: "\(named)", in: magicBundle, compatibleWith: nil) ?? UIImage()
-}

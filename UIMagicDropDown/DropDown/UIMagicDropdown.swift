@@ -28,7 +28,6 @@ public extension UIMagicDropDownDelegate {
 
 public struct MagicDropDownConfig {
     public var colors: Colors?
-    public var images: Images?
     public var fonts: Fonts?
     public var layers: Layers?
     public var shadow: Shadow?
@@ -46,12 +45,6 @@ public struct MagicDropDownConfig {
         public var itemUnselectedTextColor: UIColor?
         public var separatorTintColor: UIColor?
         public var accessoryTintColor: UIColor?
-
-        public init(){}
-    }
-    public struct Images {
-        //MARK: - Images
-        public var accessoryImageView: UIImageView?
 
         public init(){}
     }
