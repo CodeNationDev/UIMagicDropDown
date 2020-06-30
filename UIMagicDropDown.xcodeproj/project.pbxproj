@@ -91,10 +91,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07EA355C24A94E4F00B25ABA = {
+		0709ED9C24AB415B00EB4566 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				07EA356824A94E4F00B25ABA /* UIMagicDropDown */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		07EA355C24A94E4F00B25ABA = {
+			isa = PBXGroup;
+			children = (
+				0709ED9C24AB415B00EB4566 /* Sources */,
 				07EA358C24A94EE900B25ABA /* Demo */,
 				07EA356724A94E4F00B25ABA /* Products */,
 				07EA359F24A94F0A00B25ABA /* Frameworks */,
@@ -465,7 +473,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIMagicDropDown/Info.plist;
+				INFOPLIST_FILE = Sources/UIMagicDropDown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,7 +497,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = UIMagicDropDown/Info.plist;
+				INFOPLIST_FILE = Sources/UIMagicDropDown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

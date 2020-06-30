@@ -1,5 +1,5 @@
 PODS:
-  - UIMagicDropDown (1.0.0)
+  - UIMagicDropDown (1.2.0)
 
 DEPENDENCIES:
   - UIMagicDropDown (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIMagicDropDown: da370969bc839dcec5f20cb2e96478816473e5c4
+  UIMagicDropDown: 9f68185c281cd98ce46b406914a8cf2b236e874a
 
 PODFILE CHECKSUM: e67219cee7fc45c02485cb39209bc06fbea2aa12
 

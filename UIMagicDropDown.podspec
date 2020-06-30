@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIMagicDropDown'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'An elegant and magic dropdown'
 
   s.description      = <<-DESC
@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   
-  s.source_files = 'UIMagicDropDown/**/*.{swift}'
-  s.resource_bundle = { 'UIMDrop' => ['UIMagicDropDown/Resources/**'] }
+  s.source_files = 'Sources/UIMagicDropDown/**/*.{swift}'
 end

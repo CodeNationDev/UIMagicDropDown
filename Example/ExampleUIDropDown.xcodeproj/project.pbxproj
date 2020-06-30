@@ -13,7 +13,7 @@
 		07461EAF24A6AF7300121352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07461EAD24A6AF7300121352 /* Main.storyboard */; };
 		07461EB124A6AF7500121352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07461EB024A6AF7500121352 /* Assets.xcassets */; };
 		07461EB424A6AF7500121352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07461EB224A6AF7500121352 /* LaunchScreen.storyboard */; };
-		B1D291A7E5C929EC309C1AD6 /* Pods_ExampleUIDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9633861427787CFC7E926D6 /* Pods_ExampleUIDropDown.framework */; };
+		D782CF96A111ADBC39F57490 /* Pods_ExampleUIDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F369F51A856A4F949FF32273 /* Pods_ExampleUIDropDown.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		07461EB024A6AF7500121352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07461EB324A6AF7500121352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07461EB524A6AF7500121352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43521AC9FBB4D3F829B071E1 /* Pods-ExampleUIDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUIDropDown.debug.xcconfig"; path = "Target Support Files/Pods-ExampleUIDropDown/Pods-ExampleUIDropDown.debug.xcconfig"; sourceTree = "<group>"; };
-		A9633861427787CFC7E926D6 /* Pods_ExampleUIDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUIDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C4719476B0E8FD7F870911 /* Pods-ExampleUIDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUIDropDown.release.xcconfig"; path = "Target Support Files/Pods-ExampleUIDropDown/Pods-ExampleUIDropDown.release.xcconfig"; sourceTree = "<group>"; };
+		53E84137CD73E0967D52BC74 /* Pods-ExampleUIDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUIDropDown.debug.xcconfig"; path = "Target Support Files/Pods-ExampleUIDropDown/Pods-ExampleUIDropDown.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C265091B32987949944050 /* Pods-ExampleUIDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUIDropDown.release.xcconfig"; path = "Target Support Files/Pods-ExampleUIDropDown/Pods-ExampleUIDropDown.release.xcconfig"; sourceTree = "<group>"; };
+		F369F51A856A4F949FF32273 /* Pods_ExampleUIDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUIDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D291A7E5C929EC309C1AD6 /* Pods_ExampleUIDropDown.framework in Frameworks */,
+				D782CF96A111ADBC39F57490 /* Pods_ExampleUIDropDown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 				07461EA624A6AF7300121352 /* ExampleUIDropDown */,
 				07461EA524A6AF7300121352 /* Products */,
 				3A1AB29CA3981ACF69C24323 /* Pods */,
-				C1EAE7A5D313FCC4FBAEAF29 /* Frameworks */,
+				212EA74C403E09CFB4FBC8DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +74,21 @@
 			path = ExampleUIDropDown;
 			sourceTree = "<group>";
 		};
+		212EA74C403E09CFB4FBC8DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F369F51A856A4F949FF32273 /* Pods_ExampleUIDropDown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A1AB29CA3981ACF69C24323 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43521AC9FBB4D3F829B071E1 /* Pods-ExampleUIDropDown.debug.xcconfig */,
-				A9C4719476B0E8FD7F870911 /* Pods-ExampleUIDropDown.release.xcconfig */,
+				53E84137CD73E0967D52BC74 /* Pods-ExampleUIDropDown.debug.xcconfig */,
+				A6C265091B32987949944050 /* Pods-ExampleUIDropDown.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C1EAE7A5D313FCC4FBAEAF29 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A9633861427787CFC7E926D6 /* Pods_ExampleUIDropDown.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +98,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07461EB824A6AF7500121352 /* Build configuration list for PBXNativeTarget "ExampleUIDropDown" */;
 			buildPhases = (
-				06E120E2F36DE1104E2E3312 /* [CP] Check Pods Manifest.lock */,
+				A391F5DE9B138AC6B02792EB /* [CP] Check Pods Manifest.lock */,
 				07461EA024A6AF7300121352 /* Sources */,
 				07461EA124A6AF7300121352 /* Frameworks */,
 				07461EA224A6AF7300121352 /* Resources */,
-				36ED631CB1CE49C178AB7916 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,7 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06E120E2F36DE1104E2E3312 /* [CP] Check Pods Manifest.lock */ = {
+		A391F5DE9B138AC6B02792EB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,21 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		36ED631CB1CE49C178AB7916 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleUIDropDown/Pods-ExampleUIDropDown-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -348,7 +332,7 @@
 		};
 		07461EB924A6AF7500121352 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43521AC9FBB4D3F829B071E1 /* Pods-ExampleUIDropDown.debug.xcconfig */;
+			baseConfigurationReference = 53E84137CD73E0967D52BC74 /* Pods-ExampleUIDropDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -367,7 +351,7 @@
 		};
 		07461EBA24A6AF7500121352 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C4719476B0E8FD7F870911 /* Pods-ExampleUIDropDown.release.xcconfig */;
+			baseConfigurationReference = A6C265091B32987949944050 /* Pods-ExampleUIDropDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
