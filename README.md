@@ -423,6 +423,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
   * Remove dropdown_arrow image resource
   * Add arrow as "V" copperplate font
   * Modify theme structure: Remove images sub-struct  
+  * Add Swift Package Manager support 🎉
 * 1.1.0
     * Add Carthage compatibility
     * Modify getImage func for Carthage useage.
