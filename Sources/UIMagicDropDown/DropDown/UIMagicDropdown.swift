@@ -15,7 +15,7 @@
 import UIKit
 
 
-public protocol UIMagicDropDownDelegate: class {
+public protocol UIMagicDropDownDelegate: AnyObject {
     func dropDownSelected (_ item: UIMagicDropdownData, _ sender: UIMagicDropdown)
     func dropdownExpanded (_ sender: UIMagicDropdown)
     func dropdownCompressed (_ sender: UIMagicDropdown)
@@ -187,7 +187,7 @@ public class UIMagicDropdown: UIView, UITableViewDelegate, UITableViewDataSource
     }
 
     // MARK: - Show / Hide TableView
-    func show() {
+    public func show() {
         tableView.theme = theme
         var tableHeight = 47 * 4
         let itemsCount = self.items?.count ?? 0
@@ -214,7 +214,7 @@ public class UIMagicDropdown: UIView, UITableViewDelegate, UITableViewDataSource
         }
     }
 
-    func hide() {
+    public func hide() {
         if #available(iOS 10.0, *) {
             UIViewPropertyAnimator(duration: 0.5, dampingRatio: 0.8) {
                 self.tableViewheightConstraint?.constant = 0.0
