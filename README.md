@@ -3,7 +3,7 @@
 
 ![Cocoapods](https://img.shields.io/badge/CocoaPods-Ready-green) ![Carthage](https://img.shields.io/badge/Carhage-compatible-blue) ![Swift](https://img.shields.io/badge/Swift-5.0-orange) 
 
-> :warning: **Cocoapods deprecation notice**: Next versions from 1.2.0, will not have distribution support via Cocoapods and Carthage, Swift Pakcage Manager Only!
+> :warning: **Cocoapods & Carthage deprecation notice**: Next versions from 1.2.0, will not have distribution support via Cocoapods and Carthage, Swift Pakcage Manager Only!
 
 
 UIMagicDropDown is a simply but powerful solution for this kind of selection element. Easy for use and integrate, you could make your own design by themes feature.
