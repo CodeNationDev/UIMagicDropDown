@@ -400,6 +400,12 @@ extension ViewController: UIMagicDropDownDelegate {
         //Do Something
     }
 }
+            
+### Set item selection programmatically
+Usual, you could need to pre-select any item first time (or change selection of next dropdown that depends from last one). For this, you can use the itemSelected variable.
+```swift
+dropDown.itemSelected = 2
+```
 
 ### By Interface Builder (BETA)
 
